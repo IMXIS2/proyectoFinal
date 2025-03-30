@@ -1,0 +1,41 @@
+# Archivos de compilación
+bin/
+obj/
+out/
+
+# Archivos de usuario y configuraciones de Visual Studio
+.vscode/
+*.vsconfig
+.vs/
+*.user
+*.suo
+*.sln.cache
+*.ide
+
+# Paquetes y dependencias
+packages/
+*.nupkg
+project.lock.json
+global.json
+
+# Archivos generados por el sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+$RECYCLE.BIN/
+
+# Configuración de Windows Forms Designer
+**/*.Designer.cs
+
+# Archivos de logs y temporales
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Publicación y publicación temporal
+publish/
+*.publishsettings
+AppPackages/
+TestResults/
