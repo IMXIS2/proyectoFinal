@@ -5,25 +5,7 @@ create database Prestamos
 -- tenemos de tablas:
 --				Historial Crediticio, cuenta, clientes , prestamos, garantias y pagos
 
---Creacion de la tabla HIstorial de credito
-CREATE TABLE Historial_Crediticio (
-    id_historial INT PRIMARY KEY,
-    id_cliente INT,
-    fecha_reporte DATE,
-    puntuacion_crediticia INT,
-    comentarios varchar(300)
-);
 
---Creacion de la tabla Cuenta
-CREATE TABLE Cuenta (
-	id_cuenta int primary key not null,
-	Tipo_Cuenta varchar(50),
-	fecha_Apertura date, 
-	Limite_crediticio varchar(200),
-	Saldo_Actual decimal,
-	Id_historial int references Historial_Crediticio(id_historial),
-	Estado bit
-);
 
 --Creacion de tabla clientes
 CREATE TABLE Clientes (
@@ -31,8 +13,28 @@ CREATE TABLE Clientes (
     primer_nombre VARCHAR(100),
 	segundo_nombre VARCHAR(100),
     primer_apellido VARCHAR(100),
-	segundo_apellido varchar(100),
-	id_cuenta int references Cuenta(id_cuenta)
+	segundo_apellido varchar(100)
+);
+
+--Creacion de la tabla Cuenta
+CREATE TABLE Cuenta (
+	id_cuenta int primary key not null,
+	Identificacion varchar(100) references Clientes(Identificacion),
+	Tipo_Cuenta varchar(50),
+	fecha_Apertura date, 
+	Limite_crediticio varchar(200),
+	Saldo_Actual decimal,
+	Estado bit
+);
+
+
+--Creacion de la tabla HIstorial de credito
+CREATE TABLE Historial_Crediticio (
+    id_historial INT PRIMARY KEY,
+    id_cuenta INT references Cuenta(id_cuenta),
+    fecha_reporte DATE,
+    puntuacion_crediticia INT,
+    comentarios varchar(300)
 );
 
 --Normalizacion de la tabla contacto
@@ -59,7 +61,7 @@ CREATE TABLE direcciones(
 --Creacion de la tabla Prestamos
 CREATE TABLE Prestamos (
     id_prestamo INT PRIMARY KEY,
-    id_cliente varchar(100) references clientes(identificacion),
+    id_cuenta int references cuenta(id_cuenta),
     monto DECIMAL(10, 2),
     tasa_interes DECIMAL(5, 2),
     fecha_solicitud DATE,
