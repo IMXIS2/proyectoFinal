@@ -1,16 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\banco\\",
+  "WorkspaceRootPath": "C:\\Users\\Dilcia\\OneDrive - Transformaci\u00F3n Digital Educaci\u00F3n\\Escritorio\\5to informatica\\DASI-Margarita\\aplicacion\\proyectoFinal\\banco\\banco\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6953A312-B76D-4A45-95B3-41FCEA69697B}|banco.csproj|c:\\users\\admin\\source\\repos\\banco\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6953A312-B76D-4A45-95B3-41FCEA69697B}|banco.csproj|c:\\users\\dilcia\\onedrive - transformaci\u00F3n digital educaci\u00F3n\\escritorio\\5to informatica\\dasi-margarita\\aplicacion\\proyectofinal\\banco\\banco\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6953A312-B76D-4A45-95B3-41FCEA69697B}|banco.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|banco||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6953A312-B76D-4A45-95B3-41FCEA69697B}|banco.csproj|C:\\Users\\ADMIN\\source\\repos\\banco\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6953A312-B76D-4A45-95B3-41FCEA69697B}|banco.csproj|C:\\Users\\Dilcia\\OneDrive - Transformaci\u00F3n Digital Educaci\u00F3n\\Escritorio\\5to informatica\\DASI-Margarita\\aplicacion\\proyectoFinal\\banco\\banco\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6953A312-B76D-4A45-95B3-41FCEA69697B}|banco.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -27,9 +27,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "banco",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\banco\\banco.csproj",
+              "DocumentMoniker": "C:\\Users\\Dilcia\\OneDrive - Transformaci\u00F3n Digital Educaci\u00F3n\\Escritorio\\5to informatica\\DASI-Margarita\\aplicacion\\proyectoFinal\\banco\\banco\\banco.csproj",
               "RelativeDocumentMoniker": "banco.csproj",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\banco\\banco.csproj",
+              "ToolTip": "C:\\Users\\Dilcia\\OneDrive - Transformaci\u00F3n Digital Educaci\u00F3n\\Escritorio\\5to informatica\\DASI-Margarita\\aplicacion\\proyectoFinal\\banco\\banco\\banco.csproj",
               "RelativeToolTip": "banco.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-03-24T10:46:58.21Z"
@@ -38,34 +38,25 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\banco\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Dilcia\\OneDrive - Transformaci\u00F3n Digital Educaci\u00F3n\\Escritorio\\5to informatica\\DASI-Margarita\\aplicacion\\proyectoFinal\\banco\\banco\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\banco\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Dilcia\\OneDrive - Transformaci\u00F3n Digital Educaci\u00F3n\\Escritorio\\5to informatica\\DASI-Margarita\\aplicacion\\proyectoFinal\\banco\\banco\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T13:28:02.485Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\banco\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Dilcia\\OneDrive - Transformaci\u00F3n Digital Educaci\u00F3n\\Escritorio\\5to informatica\\DASI-Margarita\\aplicacion\\proyectoFinal\\banco\\banco\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\banco\\Form1.cs",
+              "ToolTip": "C:\\Users\\Dilcia\\OneDrive - Transformaci\u00F3n Digital Educaci\u00F3n\\Escritorio\\5to informatica\\DASI-Margarita\\aplicacion\\proyectoFinal\\banco\\banco\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAD4vw8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T11:51:21.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T11:51:21.719Z"
             }
           ]
         }
