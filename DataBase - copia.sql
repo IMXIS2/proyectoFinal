@@ -1,88 +1,91 @@
---Creacion de la base de datos
-create database Prestamos
+-- Creación de la base de datos
+CREATE DATABASE Prestamos;
+USE Prestamos;
 
---[Notas]--
--- tenemos de tablas:
---				Historial Crediticio, cuenta, clientes , prestamos, garantias y pagos
-
-
-
---Creacion de tabla clientes
+-- Creación de la tabla Clientes
 CREATE TABLE Clientes (
-    Identificacion varchar(100) PRIMARY KEY not null,
+    Identificacion VARCHAR(100) PRIMARY KEY NOT NULL,
     primer_nombre VARCHAR(100),
-	segundo_nombre VARCHAR(100),
+    segundo_nombre VARCHAR(100),
     primer_apellido VARCHAR(100),
-	segundo_apellido varchar(100)
+    segundo_apellido VARCHAR(100)
 );
 
---Creacion de la tabla Cuenta
+-- Creación de la tabla Cuenta
 CREATE TABLE Cuenta (
-	id_cuenta int primary key not null,
-	Identificacion varchar(100) references Clientes(Identificacion),
-	Tipo_Cuenta varchar(50),
-	fecha_Apertura date, 
-	Limite_crediticio varchar(200),
-	Saldo_Actual decimal,
-	Estado bit
+    id_cuenta INT PRIMARY KEY NOT NULL,
+    Identificacion VARCHAR(100) NOT NULL,
+    Tipo_Cuenta VARCHAR(50),
+    fecha_Apertura DATE, 
+    Limite_crediticio VARCHAR(200),
+    Saldo_Actual DECIMAL(10,2),
+    Estado BIT,
+    FOREIGN KEY (Identificacion) REFERENCES Clientes(Identificacion) ON DELETE CASCADE
 );
 
-
---Creacion de la tabla HIstorial de credito
+-- Creación de la tabla Historial_Crediticio
 CREATE TABLE Historial_Crediticio (
-    id_historial INT PRIMARY KEY,
-    id_cuenta INT references Cuenta(id_cuenta),
+    id_historial INT PRIMARY KEY NOT NULL,
+    id_cuenta INT NOT NULL,
     fecha_reporte DATE,
     puntuacion_crediticia INT,
-    comentarios varchar(300)
+    comentarios VARCHAR(300),
+    FOREIGN KEY (id_cuenta) REFERENCES Cuenta(id_cuenta) ON DELETE CASCADE
 );
 
---Normalizacion de la tabla contacto
+-- Creación de la tabla Tipo_contacto
 CREATE TABLE Tipo_contacto (
-tipo_C int primary key not null,
-nombre varchar(100),
-identificacion varchar(100) references Clientes(identificacion)
+    tipo_C INT PRIMARY KEY NOT NULL,
+    nombre VARCHAR(100),
+    identificacion VARCHAR(100) NOT NULL,
+    FOREIGN KEY (identificacion) REFERENCES Clientes(Identificacion) ON DELETE CASCADE
 );
 
-CREATE TABLE contacto (
-id_C int primary key not null,
-contacto varchar(200),
-identificacion varchar(100) references Clientes(identificacion)
-)
-
---Creacion de la tabla direcciones
-CREATE TABLE direcciones(
-	id_cliente varchar(100) references Clientes(identificacion),
-	id_direccion int primary key,
-	latitud decimal(9,6),
-	longitud decimal(9,6)
+-- Creación de la tabla Contacto
+CREATE TABLE Contacto (
+    id_C INT PRIMARY KEY NOT NULL,
+    contacto VARCHAR(200),
+    identificacion VARCHAR(100) NOT NULL,
+    FOREIGN KEY (identificacion) REFERENCES Clientes(Identificacion) ON DELETE CASCADE
 );
 
---Creacion de la tabla Prestamos
+-- Creación de la tabla Direcciones
+CREATE TABLE Direcciones (
+    id_direccion INT PRIMARY KEY NOT NULL,
+    id_cliente VARCHAR(100) NOT NULL,
+    latitud DECIMAL(9,6),
+    longitud DECIMAL(9,6),
+    FOREIGN KEY (id_cliente) REFERENCES Clientes(Identificacion) ON DELETE CASCADE
+);
+
+-- Creación de la tabla Prestamos
 CREATE TABLE Prestamos (
-    id_prestamo INT PRIMARY KEY,
-    id_cuenta int references cuenta(id_cuenta),
-    monto DECIMAL(10, 2),
-    tasa_interes DECIMAL(5, 2),
+    id_prestamo INT PRIMARY KEY NOT NULL,
+    id_cuenta INT NOT NULL,
+    monto DECIMAL(10,2),
+    tasa_interes DECIMAL(5,2),
     fecha_solicitud DATE,
     fecha_aprobacion DATE,
-    estado Bit
+    estado BIT,
+    FOREIGN KEY (id_cuenta) REFERENCES Cuenta(id_cuenta) ON DELETE CASCADE
 );
 
---Creacion de la tabla Pagos
+-- Creación de la tabla Pagos
 CREATE TABLE Pagos (
-    id_pago INT PRIMARY KEY,
-    id_prestamo INT REFERENCES Prestamos(id_prestamo),
-    monto DECIMAL(10, 2),
+    id_pago INT PRIMARY KEY NOT NULL,
+    id_prestamo INT NOT NULL,
+    monto DECIMAL(10,2),
     fecha_pago DATE,
     metodo_pago VARCHAR(50),
+    FOREIGN KEY (id_prestamo) REFERENCES Prestamos(id_prestamo) ON DELETE CASCADE
 );
 
---Creacion de la tabla Garantia
+-- Creación de la tabla Garantias
 CREATE TABLE Garantias (
-    id_garantia INT PRIMARY KEY,
-    id_prestamo INT REFERENCES Prestamos(id_prestamo),
+    id_garantia INT PRIMARY KEY NOT NULL,
+    id_prestamo INT NOT NULL,
     tipo_garantia VARCHAR(100),
-    valor DECIMAL(10, 2),
-    descripcion varchar(200)
+    valor DECIMAL(10,2),
+    descripcion VARCHAR(200),
+    FOREIGN KEY (id_prestamo) REFERENCES Prestamos(id_prestamo) ON DELETE CASCADE
 );
