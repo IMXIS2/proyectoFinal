@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "net8.0-windows7.0": {
+      "FontAwesome.Sharp/6.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0-windows7.0/FontAwesome.Sharp.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/FontAwesome.Sharp.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      },
       "Guna.UI2.WinForms/2.0.4.7": {
         "type": "package",
         "dependencies": {
@@ -61,6 +73,23 @@
     }
   },
   "libraries": {
+    "FontAwesome.Sharp/6.6.0": {
+      "sha512": "bJCb2x73UC1nD9+9iMLaUy6Ujf9Pf+buL6FHwVnaoDYT4CQNLazz59hO5gQ0+SMSW0G+ZXmjjShOYr3Jn2UZiw==",
+      "type": "package",
+      "path": "fontawesome.sharp/6.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fontawesome.sharp.6.6.0.nupkg.sha512",
+        "fontawesome.sharp.nuspec",
+        "lib/net472/FontAwesome.Sharp.dll",
+        "lib/net48/FontAwesome.Sharp.dll",
+        "lib/net6.0-windows7.0/FontAwesome.Sharp.dll",
+        "lib/net7.0-windows7.0/FontAwesome.Sharp.dll",
+        "lib/net8.0-windows7.0/FontAwesome.Sharp.dll",
+        "lib/netcoreapp3.1/FontAwesome.Sharp.dll"
+      ]
+    },
     "Guna.UI2.WinForms/2.0.4.7": {
       "sha512": "8BdBYsfnntuICbFMHIZsd5morwURN8Ucsvq7wJeyLV1Z1ze6CAIxVKEirufgjGIiXfF0M0sCr9EVFloZSazWew==",
       "type": "package",
@@ -141,27 +170,28 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
+      "FontAwesome.Sharp >= 6.6.0",
       "Guna.UI2.WinForms >= 2.0.4.7"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\XIS\\.nuget\\packages\\": {},
+    "C:\\Users\\Dilcia\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\XIS\\Documents\\GitHub\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\ProjectFEZ.csproj",
+      "projectUniqueName": "C:\\Users\\Dilcia\\source\\repos\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\ProjectFEZ.csproj",
       "projectName": "ProjectFEZ",
-      "projectPath": "C:\\Users\\XIS\\Documents\\GitHub\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\ProjectFEZ.csproj",
-      "packagesPath": "C:\\Users\\XIS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\XIS\\Documents\\GitHub\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\obj\\",
+      "projectPath": "C:\\Users\\Dilcia\\source\\repos\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\ProjectFEZ.csproj",
+      "packagesPath": "C:\\Users\\Dilcia\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dilcia\\source\\repos\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\XIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dilcia\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -187,13 +217,16 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net8.0-windows7.0": {
         "targetAlias": "net8.0-windows",
         "dependencies": {
+          "FontAwesome.Sharp": {
+            "target": "Package",
+            "version": "[6.6.0, )"
+          },
           "Guna.UI2.WinForms": {
             "target": "Package",
             "version": "[2.0.4.7, )"
@@ -218,7 +251,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
