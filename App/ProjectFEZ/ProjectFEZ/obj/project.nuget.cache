@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Eu0Cy/pbTcc=",
+  "dgSpecHash": "WAB/6z6M30vba1gN5DPC0DZ967Uz5WeL1HLMZGNEPnWjX2L/wgOVMCIyhVXHknc3UkrFZOWqaQ7cB70BLTFQAg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\XIS\\Documents\\GitHub\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\ProjectFEZ.csproj",
+  "projectFilePath": "C:\\Users\\Dilcia\\source\\repos\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\ProjectFEZ.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\XIS\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.7\\guna.ui2.winforms.2.0.4.7.nupkg.sha512",
-    "C:\\Users\\XIS\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
-    "C:\\Users\\XIS\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
+    "C:\\Users\\Dilcia\\.nuget\\packages\\fontawesome.sharp\\6.6.0\\fontawesome.sharp.6.6.0.nupkg.sha512",
+    "C:\\Users\\Dilcia\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.7\\guna.ui2.winforms.2.0.4.7.nupkg.sha512",
+    "C:\\Users\\Dilcia\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\Dilcia\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,10 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\XIS\\Documents\\GitHub\\proyectoFinal\\App\\ProjectFEZ\\",
+  "WorkspaceRootPath": "C:\\Users\\Dilcia\\source\\repos\\proyectoFinal\\App\\ProjectFEZ\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B31785BE-2223-4561-AD08-D16F7ECEA10D}|ProjectFEZ\\ProjectFEZ.csproj|c:\\users\\xis\\documents\\github\\proyectofinal\\app\\projectfez\\projectfez\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B31785BE-2223-4561-AD08-D16F7ECEA10D}|ProjectFEZ\\ProjectFEZ.csproj|c:\\users\\dilcia\\source\\repos\\proyectofinal\\app\\projectfez\\projectfez\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B31785BE-2223-4561-AD08-D16F7ECEA10D}|ProjectFEZ\\ProjectFEZ.csproj|solutionrelative:projectfez\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B31785BE-2223-4561-AD08-D16F7ECEA10D}|ProjectFEZ\\ProjectFEZ.csproj|C:\\Users\\Dilcia\\source\\repos\\proyectoFinal\\App\\ProjectFEZ\\projectfez\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B31785BE-2223-4561-AD08-D16F7ECEA10D}|ProjectFEZ\\ProjectFEZ.csproj|solutionrelative:projectfez\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B31785BE-2223-4561-AD08-D16F7ECEA10D}|ProjectFEZ\\ProjectFEZ.csproj|C:\\Users\\Dilcia\\source\\repos\\proyectoFinal\\App\\ProjectFEZ\\projectfez\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B31785BE-2223-4561-AD08-D16F7ECEA10D}|ProjectFEZ\\ProjectFEZ.csproj|solutionrelative:projectfez\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B31785BE-2223-4561-AD08-D16F7ECEA10D}|ProjectFEZ\\ProjectFEZ.csproj|C:\\Users\\Dilcia\\source\\repos\\proyectoFinal\\App\\ProjectFEZ\\projectfez\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B31785BE-2223-4561-AD08-D16F7ECEA10D}|ProjectFEZ\\ProjectFEZ.csproj|solutionrelative:projectfez\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B31785BE-2223-4561-AD08-D16F7ECEA10D}|ProjectFEZ\\ProjectFEZ.csproj|C:\\Users\\Dilcia\\source\\repos\\proyectoFinal\\App\\ProjectFEZ\\projectfez\\olvidarcontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B31785BE-2223-4561-AD08-D16F7ECEA10D}|ProjectFEZ\\ProjectFEZ.csproj|solutionrelative:projectfez\\olvidarcontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B31785BE-2223-4561-AD08-D16F7ECEA10D}|ProjectFEZ\\ProjectFEZ.csproj|C:\\Users\\Dilcia\\source\\repos\\proyectoFinal\\App\\ProjectFEZ\\projectfez\\olvidarcontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B31785BE-2223-4561-AD08-D16F7ECEA10D}|ProjectFEZ\\ProjectFEZ.csproj|solutionrelative:projectfez\\olvidarcontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,23 +34,91 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\XIS\\Documents\\GitHub\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\Login.cs",
-              "RelativeDocumentMoniker": "ProjectFEZ\\Login.cs",
-              "ToolTip": "C:\\Users\\XIS\\Documents\\GitHub\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\Login.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ProjectFEZ\\Login.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T01:48:31.949Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "login.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Dilcia\\source\\repos\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\login.Designer.cs",
+              "RelativeDocumentMoniker": "ProjectFEZ\\login.Designer.cs",
+              "ToolTip": "C:\\Users\\Dilcia\\source\\repos\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\login.Designer.cs",
+              "RelativeToolTip": "ProjectFEZ\\login.Designer.cs",
+              "ViewState": "AQIAAMUAAAAAAAAAAAAjwNYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T13:00:24.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OlvidarContrase\u00F1a.cs",
+              "DocumentMoniker": "C:\\Users\\Dilcia\\source\\repos\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\OlvidarContrase\u00F1a.cs",
+              "RelativeDocumentMoniker": "ProjectFEZ\\OlvidarContrase\u00F1a.cs",
+              "ToolTip": "C:\\Users\\Dilcia\\source\\repos\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\OlvidarContrase\u00F1a.cs",
+              "RelativeToolTip": "ProjectFEZ\\OlvidarContrase\u00F1a.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T12:30:28.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OlvidarContrase\u00F1a.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dilcia\\source\\repos\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\OlvidarContrase\u00F1a.cs",
+              "RelativeDocumentMoniker": "ProjectFEZ\\OlvidarContrase\u00F1a.cs",
+              "ToolTip": "C:\\Users\\Dilcia\\source\\repos\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\OlvidarContrase\u00F1a.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProjectFEZ\\OlvidarContrase\u00F1a.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T12:30:10.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dilcia\\source\\repos\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\login.cs",
+              "RelativeDocumentMoniker": "ProjectFEZ\\login.cs",
+              "ToolTip": "C:\\Users\\Dilcia\\source\\repos\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProjectFEZ\\login.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T03:42:43.027Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dilcia\\source\\repos\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\Program.cs",
+              "RelativeDocumentMoniker": "ProjectFEZ\\Program.cs",
+              "ToolTip": "C:\\Users\\Dilcia\\source\\repos\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\Program.cs",
+              "RelativeToolTip": "ProjectFEZ\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T03:41:24.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "login.cs",
+              "DocumentMoniker": "C:\\Users\\Dilcia\\source\\repos\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\login.cs",
+              "RelativeDocumentMoniker": "ProjectFEZ\\login.cs",
+              "ToolTip": "C:\\Users\\Dilcia\\source\\repos\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\login.cs",
+              "RelativeToolTip": "ProjectFEZ\\login.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAlwBoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T03:31:47.509Z"
             }
           ]
         }

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace ProjectFEZ
 {
-    public partial class Form1 : Form
+    public partial class OlvidarContraseña : Form
     {
-        public Form1()
+        public OlvidarContraseña()
         {
             InitializeComponent();
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2TextBox2_TextChanged(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
     }
 }
