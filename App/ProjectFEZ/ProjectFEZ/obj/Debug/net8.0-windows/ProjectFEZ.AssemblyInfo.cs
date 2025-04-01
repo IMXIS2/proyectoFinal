@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjectFEZ")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1bfa2fbd72fcd1768fdd78545076880dbd2fe16")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d8c4d97646d2dab61e2376526d137180c2df9db")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjectFEZ")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjectFEZ")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
