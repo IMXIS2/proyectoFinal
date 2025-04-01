@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\XIS\\Documents\\GitHub\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\ProjectFEZ.csproj": {}
+    "C:\\Users\\Dilcia\\source\\repos\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\ProjectFEZ.csproj": {}
   },
   "projects": {
-    "C:\\Users\\XIS\\Documents\\GitHub\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\ProjectFEZ.csproj": {
+    "C:\\Users\\Dilcia\\source\\repos\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\ProjectFEZ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\XIS\\Documents\\GitHub\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\ProjectFEZ.csproj",
+        "projectUniqueName": "C:\\Users\\Dilcia\\source\\repos\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\ProjectFEZ.csproj",
         "projectName": "ProjectFEZ",
-        "projectPath": "C:\\Users\\XIS\\Documents\\GitHub\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\ProjectFEZ.csproj",
-        "packagesPath": "C:\\Users\\XIS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\XIS\\Documents\\GitHub\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\obj\\",
+        "projectPath": "C:\\Users\\Dilcia\\source\\repos\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\ProjectFEZ.csproj",
+        "packagesPath": "C:\\Users\\Dilcia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dilcia\\source\\repos\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\XIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dilcia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -43,8 +43,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -74,7 +73,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
