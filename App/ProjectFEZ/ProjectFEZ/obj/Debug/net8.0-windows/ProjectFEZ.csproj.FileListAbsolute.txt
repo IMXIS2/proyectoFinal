@@ -30,3 +30,4 @@ C:\Users\Dilcia\source\repos\proyectoFinal\App\ProjectFEZ\ProjectFEZ\obj\Debug\n
 C:\Users\Dilcia\source\repos\proyectoFinal\App\ProjectFEZ\ProjectFEZ\obj\Debug\net8.0-windows\ProjectFEZ.genruntimeconfig.cache
 C:\Users\Dilcia\source\repos\proyectoFinal\App\ProjectFEZ\ProjectFEZ\obj\Debug\net8.0-windows\ref\ProjectFEZ.dll
 C:\Users\Dilcia\source\repos\proyectoFinal\App\ProjectFEZ\ProjectFEZ\bin\Debug\net8.0-windows\FontAwesome.Sharp.dll
+C:\Users\Dilcia\source\repos\proyectoFinal\App\ProjectFEZ\ProjectFEZ\obj\Debug\net8.0-windows\ProjectFEZ.Properties.Resources.resources

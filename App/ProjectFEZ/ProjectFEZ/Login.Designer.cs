@@ -41,7 +41,11 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            label3 = new Label();
+            iconButton1 = new FontAwesome.Sharp.IconButton();
+            Esit = new FontAwesome.Sharp.IconButton();
+            pnregistrar = new Guna.UI2.WinForms.Guna2Panel();
+            label2 = new Label();
             contraseña = new Label();
             Correo = new Label();
             BTNiniciarseccion = new Guna.UI2.WinForms.Guna2Button();
@@ -50,16 +54,18 @@
             PanelIzquierdo = new Guna.UI2.WinForms.Guna2Panel();
             label1 = new Label();
             lema = new Label();
-            Esit = new FontAwesome.Sharp.IconButton();
             guna2Panel1.SuspendLayout();
+            pnregistrar.SuspendLayout();
             PanelIzquierdo.SuspendLayout();
             SuspendLayout();
             // 
             // guna2Panel1
             // 
             guna2Panel1.BackColor = Color.White;
+            guna2Panel1.Controls.Add(label3);
+            guna2Panel1.Controls.Add(iconButton1);
             guna2Panel1.Controls.Add(Esit);
-            guna2Panel1.Controls.Add(guna2Panel2);
+            guna2Panel1.Controls.Add(pnregistrar);
             guna2Panel1.Controls.Add(contraseña);
             guna2Panel1.Controls.Add(Correo);
             guna2Panel1.Controls.Add(BTNiniciarseccion);
@@ -73,24 +79,83 @@
             guna2Panel1.Size = new Size(687, 537);
             guna2Panel1.TabIndex = 0;
             // 
-            // guna2Panel2
+            // label3
             // 
-            guna2Panel2.BorderRadius = 40;
-            guna2Panel2.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            guna2Panel2.CustomizableEdges = customizableEdges1;
-            guna2Panel2.Location = new Point(221, 28);
-            guna2Panel2.Name = "guna2Panel2";
-            guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2Panel2.Size = new Size(203, 44);
-            guna2Panel2.TabIndex = 5;
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.ForeColor = Color.DodgerBlue;
+            label3.Location = new Point(326, 498);
+            label3.Name = "label3";
+            label3.Size = new Size(244, 21);
+            label3.TabIndex = 8;
+            label3.Text = "No estas registrado haz Click aqui";
+            // 
+            // iconButton1
+            // 
+            iconButton1.BackColor = Color.Transparent;
+            iconButton1.BackgroundImageLayout = ImageLayout.Center;
+            iconButton1.FlatStyle = FlatStyle.Flat;
+            iconButton1.ForeColor = Color.CornflowerBlue;
+            iconButton1.IconChar = FontAwesome.Sharp.IconChar.EyeSlash;
+            iconButton1.IconColor = Color.Black;
+            iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconButton1.IconSize = 30;
+            iconButton1.Location = new Point(540, 273);
+            iconButton1.Name = "iconButton1";
+            iconButton1.Size = new Size(29, 30);
+            iconButton1.TabIndex = 7;
+            iconButton1.UseVisualStyleBackColor = false;
+            // 
+            // Esit
+            // 
+            Esit.FlatAppearance.BorderSize = 0;
+            Esit.FlatStyle = FlatStyle.Flat;
+            Esit.IconChar = FontAwesome.Sharp.IconChar.X;
+            Esit.IconColor = Color.Red;
+            Esit.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            Esit.IconSize = 30;
+            Esit.Location = new Point(645, 7);
+            Esit.Margin = new Padding(0);
+            Esit.Name = "Esit";
+            Esit.Size = new Size(36, 31);
+            Esit.TabIndex = 6;
+            Esit.UseVisualStyleBackColor = true;
+            Esit.Click += Esit_Click;
+            // 
+            // pnregistrar
+            // 
+            pnregistrar.BackColor = Color.Transparent;
+            pnregistrar.BorderRadius = 10;
+            pnregistrar.Controls.Add(label2);
+            pnregistrar.CustomBorderColor = Color.Red;
+            pnregistrar.CustomizableEdges = customizableEdges1;
+            pnregistrar.FillColor = Color.Orange;
+            pnregistrar.ForeColor = Color.Black;
+            pnregistrar.Location = new Point(576, 484);
+            pnregistrar.Name = "pnregistrar";
+            pnregistrar.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            pnregistrar.Size = new Size(105, 44);
+            pnregistrar.TabIndex = 5;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(13, 10);
+            label2.Name = "label2";
+            label2.Size = new Size(86, 25);
+            label2.TabIndex = 0;
+            label2.Text = "Registrar";
+            label2.Click += label2_Click;
             // 
             // contraseña
             // 
             contraseña.AutoSize = true;
-            contraseña.Font = new Font("Verdana", 12F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            contraseña.Font = new Font("Verdana", 14.25F, FontStyle.Italic, GraphicsUnit.Point, 0);
             contraseña.Location = new Point(100, 232);
             contraseña.Name = "contraseña";
-            contraseña.Size = new Size(108, 18);
+            contraseña.Size = new Size(126, 23);
             contraseña.TabIndex = 4;
             contraseña.Text = "Contraseña:";
             contraseña.Click += label3_Click;
@@ -98,10 +163,10 @@
             // Correo
             // 
             Correo.AutoSize = true;
-            Correo.Font = new Font("Verdana", 12F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            Correo.Location = new Point(100, 139);
+            Correo.Font = new Font("Verdana", 14.25F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            Correo.Location = new Point(100, 145);
             Correo.Name = "Correo";
-            Correo.Size = new Size(165, 18);
+            Correo.Size = new Size(194, 23);
             Correo.TabIndex = 3;
             Correo.Text = "Correo Electronico:";
             // 
@@ -113,8 +178,8 @@
             BTNiniciarseccion.DisabledState.CustomBorderColor = Color.DarkGray;
             BTNiniciarseccion.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             BTNiniciarseccion.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            BTNiniciarseccion.FillColor = Color.White;
-            BTNiniciarseccion.Font = new Font("Segoe UI", 15.75F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            BTNiniciarseccion.FillColor = Color.YellowGreen;
+            BTNiniciarseccion.Font = new Font("Segoe UI", 24F, FontStyle.Italic, GraphicsUnit.Point, 0);
             BTNiniciarseccion.ForeColor = Color.Black;
             BTNiniciarseccion.Location = new Point(100, 358);
             BTNiniciarseccion.Name = "BTNiniciarseccion";
@@ -122,9 +187,11 @@
             BTNiniciarseccion.Size = new Size(473, 80);
             BTNiniciarseccion.TabIndex = 2;
             BTNiniciarseccion.Text = "Iniciar Seccion ";
+            BTNiniciarseccion.Click += BTNiniciarseccion_Click;
             // 
             // TBcontraseña
             // 
+            TBcontraseña.BorderColor = Color.White;
             TBcontraseña.BorderRadius = 10;
             TBcontraseña.CustomizableEdges = customizableEdges5;
             TBcontraseña.DefaultText = "";
@@ -200,20 +267,6 @@
             lema.TabIndex = 0;
             lema.Text = "A tu \r\n   servicio \r\n            Siempre\r\n";
             // 
-            // Esit
-            // 
-            Esit.FlatAppearance.BorderSize = 0;
-            Esit.FlatStyle = FlatStyle.Flat;
-            Esit.IconChar = FontAwesome.Sharp.IconChar.X;
-            Esit.IconColor = Color.Red;
-            Esit.IconFont = FontAwesome.Sharp.IconFont.Solid;
-            Esit.IconSize = 30;
-            Esit.Location = new Point(623, 7);
-            Esit.Name = "Esit";
-            Esit.Size = new Size(58, 51);
-            Esit.TabIndex = 6;
-            Esit.UseVisualStyleBackColor = true;            
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -226,6 +279,8 @@
             Text = "Form1";
             guna2Panel1.ResumeLayout(false);
             guna2Panel1.PerformLayout();
+            pnregistrar.ResumeLayout(false);
+            pnregistrar.PerformLayout();
             PanelIzquierdo.ResumeLayout(false);
             PanelIzquierdo.PerformLayout();
             ResumeLayout(false);
@@ -242,7 +297,10 @@
         private Label label1;
         private Label contraseña;
         private Label Correo;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
+        private Guna.UI2.WinForms.Guna2Panel pnregistrar;
         private FontAwesome.Sharp.IconButton Esit;
+        private Label label2;
+        private FontAwesome.Sharp.IconButton iconButton1;
+        private Label label3;
     }
 }
