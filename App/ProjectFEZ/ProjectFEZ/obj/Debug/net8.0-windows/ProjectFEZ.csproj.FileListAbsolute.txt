@@ -1,0 +1,8 @@
+C:\Users\XIS\Documents\GitHub\proyectoFinal\App\ProjectFEZ\ProjectFEZ\obj\Debug\net8.0-windows\ProjectFEZ.csproj.AssemblyReference.cache
+C:\Users\XIS\Documents\GitHub\proyectoFinal\App\ProjectFEZ\ProjectFEZ\obj\Debug\net8.0-windows\ProjectFEZ.Form1.resources
+C:\Users\XIS\Documents\GitHub\proyectoFinal\App\ProjectFEZ\ProjectFEZ\obj\Debug\net8.0-windows\ProjectFEZ.csproj.GenerateResource.cache
+C:\Users\XIS\Documents\GitHub\proyectoFinal\App\ProjectFEZ\ProjectFEZ\obj\Debug\net8.0-windows\ProjectFEZ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\XIS\Documents\GitHub\proyectoFinal\App\ProjectFEZ\ProjectFEZ\obj\Debug\net8.0-windows\ProjectFEZ.AssemblyInfoInputs.cache
+C:\Users\XIS\Documents\GitHub\proyectoFinal\App\ProjectFEZ\ProjectFEZ\obj\Debug\net8.0-windows\ProjectFEZ.AssemblyInfo.cs
+C:\Users\XIS\Documents\GitHub\proyectoFinal\App\ProjectFEZ\ProjectFEZ\obj\Debug\net8.0-windows\ProjectFEZ.csproj.CoreCompileInputs.cache
+C:\Users\XIS\Documents\GitHub\proyectoFinal\App\ProjectFEZ\ProjectFEZ\obj\Debug\net8.0-windows\ProjectFEZ.sourcelink.json

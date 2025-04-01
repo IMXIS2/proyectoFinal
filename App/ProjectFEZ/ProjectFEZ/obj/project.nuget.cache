@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Eu0Cy/pbTcc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\XIS\\Documents\\GitHub\\proyectoFinal\\App\\ProjectFEZ\\ProjectFEZ\\ProjectFEZ.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\XIS\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.7\\guna.ui2.winforms.2.0.4.7.nupkg.sha512",
+    "C:\\Users\\XIS\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\XIS\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
