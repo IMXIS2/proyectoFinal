@@ -41,6 +41,7 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            CBusuario = new CheckBox();
             label3 = new Label();
             iconButton1 = new FontAwesome.Sharp.IconButton();
             Esit = new FontAwesome.Sharp.IconButton();
@@ -62,6 +63,7 @@
             // guna2Panel1
             // 
             guna2Panel1.BackColor = Color.White;
+            guna2Panel1.Controls.Add(CBusuario);
             guna2Panel1.Controls.Add(label3);
             guna2Panel1.Controls.Add(iconButton1);
             guna2Panel1.Controls.Add(Esit);
@@ -78,6 +80,17 @@
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges10;
             guna2Panel1.Size = new Size(687, 537);
             guna2Panel1.TabIndex = 0;
+            // 
+            // CBusuario
+            // 
+            CBusuario.AutoSize = true;
+            CBusuario.Location = new Point(100, 315);
+            CBusuario.Name = "CBusuario";
+            CBusuario.Size = new Size(115, 19);
+            CBusuario.TabIndex = 9;
+            CBusuario.Text = "Recordar usuario";
+            CBusuario.UseVisualStyleBackColor = true;
+            CBusuario.CheckedChanged += CBusuario_CheckedChanged;
             // 
             // label3
             // 
@@ -105,6 +118,7 @@
             iconButton1.Size = new Size(29, 30);
             iconButton1.TabIndex = 7;
             iconButton1.UseVisualStyleBackColor = false;
+            iconButton1.Click += iconButton1_Click;
             // 
             // Esit
             // 
@@ -209,7 +223,6 @@
             TBcontraseña.ShadowDecoration.CustomizableEdges = customizableEdges6;
             TBcontraseña.Size = new Size(473, 41);
             TBcontraseña.TabIndex = 1;
-            TBcontraseña.TextChanged += guna2TextBox2_TextChanged;
             // 
             // TBcorreo
             // 
@@ -302,5 +315,6 @@
         private Label label2;
         private FontAwesome.Sharp.IconButton iconButton1;
         private Label label3;
+        private CheckBox CBusuario;
     }
 }
